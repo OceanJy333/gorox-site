@@ -1,0 +1,17 @@
+/* input: 无
+   output: GoRox 公开网页 (隐私政策、支持页) 的样式
+   pos: site/ — 发到 GitHub Pages, App Store 填的隐私和支持网址; 颜色同 App 品牌 */
+:root{--bg:#EEF0F3;--card:#fff;--ink:#00082E;--muted:#4A5070;--line:#D6DAE2;--volt:#C8E928}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif}
+main{width:min(760px,calc(100% - 32px));margin:0 auto;padding:48px 0 72px}
+header{padding-bottom:24px;border-bottom:1px solid var(--line)}
+.mark{display:inline-block;background:var(--volt);color:var(--ink);font-weight:800;letter-spacing:.08em;padding:2px 10px;border-radius:999px;font-size:13px}
+h1{margin:14px 0 6px;font-size:32px;letter-spacing:-.02em}
+h2{margin:32px 0 8px;font-size:20px}
+p,li{color:var(--muted)}
+strong,a{color:var(--ink)}
+a{text-underline-offset:3px}
+ul{padding-left:22px}
+.card{margin:22px 0;padding:16px 18px;border-radius:16px;background:var(--card)}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
